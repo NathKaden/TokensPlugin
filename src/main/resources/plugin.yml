@@ -1,0 +1,9 @@
+name: TokensPlugin
+version: 1.0
+main: sirou95.tokens.TokensPlugin
+api-version: 1.13
+depend: [Vault]
+commands:
+  tokens:
+    description: Gérer vos tokens virtuels
+    usage: /tokens [buy|sell|balance]
